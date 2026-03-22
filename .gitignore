@@ -1,0 +1,11 @@
+.env
+scout.db
+scout.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
