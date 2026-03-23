@@ -9,3 +9,11 @@ venv/
 dist/
 build/
 .DS_Store
+
+# Next.js
+dashboard/.next/
+dashboard/node_modules/
+
+# DB WAL files
+scout.db-shm
+scout.db-wal
