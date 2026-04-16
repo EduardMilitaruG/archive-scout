@@ -33,22 +33,10 @@ export function timeAgo(dateString: string): string {
   return `${Math.floor(diff / 86400)}d ago`;
 }
 
-export function dealScoreLabel(score: DealScore): string {
-  switch (score) {
-    case "fire": return "🔥 Fire Deal";
-    case "hot": return "⚡ Hot Deal";
-    case "good": return "✅ Good Deal";
-  }
-}
-
 export function discountToDealScore(pct: number): DealScore {
   if (pct >= 60) return "fire";
   if (pct >= 40) return "hot";
   return "good";
-}
-
-export function randomId(): string {
-  return Math.random().toString(36).substring(2, 10);
 }
 
 export function subMinutes(minutes: number): string {
