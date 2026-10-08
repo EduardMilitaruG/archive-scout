@@ -17,3 +17,7 @@ dashboard/node_modules/
 # DB WAL files
 scout.db-shm
 scout.db-wal
+
+# local assistant notes
+CLAUDE.md
+.claude/
